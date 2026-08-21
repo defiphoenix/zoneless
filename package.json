@@ -13,7 +13,7 @@
   },
   "scripts": {
     "kill": "./scripts/kill-all.sh",
-    "dev": "docker compose up mongodb mongo-express -d && nx run-many -t serve -p api web --output-style=stream",
+    "dev": "node init && docker compose up mongodb mongo-express -d && nx run-many -t serve -p api web --output-style=stream",
     "start:api": "nx serve api",
     "start:web": "nx serve web",
     "start:db": "docker compose up mongodb mongo-express -d",

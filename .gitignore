@@ -59,3 +59,6 @@ apps/api/src/scripts/
 
 # Deployment script
 deploy-local.sh
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
